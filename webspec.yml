@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     commands:
-      - echo "Installing Hugo..."
+      - echo "Installing Hugo ..."
       - |
         MAX_RETRIES=3
         for i in $(seq 1 $MAX_RETRIES); do
